@@ -1,0 +1,319 @@
+/*------------------------------------------------------------------
+[Skin-modes Stylesheet]
+
+Project        :   Dashro - HTML5 Bootstrap Admin Template
+Version        :   V.1
+Create Date    :   02/03/20
+Last Update    :   02/03/20
+Copyright      :   Spruko Technologies Private Limited 
+Author         :   SprukoSoft
+Author URL     :   https://themeforest.net/user/sprukosoft
+Support		   :   support@spruko.com
+License        :   Licensed under ThemeForest License
+
+-------------------------------------------------------------------*/
+/**** color-menu
+/**** Dark-menu
+/**** Garident-menu
+/**** light-menu
+/**** Horixontal Dark
+/**** Horizontal Gradient
+/**** Horizontal Color
+/**** horizontal-light
+
+/*-- color-menu--*/
+.color-menu .app-sidebar{
+	background: #4d79f5;
+}
+.color-menu .side-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid #4d79f5;
+    background: #4d79f5;
+}
+.dark-theme.color-menu .side-menu li ul{
+	background:transparent;
+}
+.dark-theme.color-menu .app-sidebar .side-menu__item.active {
+	color: #fff;
+    background: rgba(255,255,255,0.1);
+}
+.dark-theme.color-menu .app-sidebar .side-menu__item:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+}
+/*Dark-menu*/
+.dark-menu .app-sidebar{
+	background: #16182f;
+}
+.dark-menu .side-header {
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(255,255,255,0.1);
+    background: #16182f;
+}
+.dark-menu .app-sidebar .side-menu__item.active {
+	color: #fff;
+    background:rgb(31, 34, 66);
+}
+.dark-menu .app-sidebar .side-menu__item:hover {
+    color: #fff;
+    background: rgb(31, 34, 66);
+}
+/*Garident-menu*/
+.gradient-menu .app-sidebar{
+	background: linear-gradient( to right, rgb(77, 121, 245) 0.65%, rgb(26, 65, 175) 100% );
+}
+.gradient-menu .side-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid #223fc9;
+    background: linear-gradient( to right, rgb(77, 121, 245) 0.65%, rgb(26, 65, 175) 100% );
+}
+.dark-theme.gradient-menu .side-menu li ul{
+	background:transparent;
+}
+.dark-theme.gradient-menu  .app-sidebar .side-menu__item.active {
+	color: #fff;
+    background: rgba(255,255,255,0.1);
+}
+.dark-theme.gradient-menu  .app-sidebar .side-menu__item:hover {
+    color: #fff;
+    background: rgba(255,255,255,0.1);
+}
+/*light-menu*/
+.light-menu .app-sidebar{
+	background:#fff;
+	border-left: 1px solid #e8edf5;
+}
+.light-menu .side-header {
+    border-bottom: 1px solid #e8edf5;
+    border-right: 1px solid #e8edf5;
+    background:#fff;
+	border-left: 1px solid #e8edf5;
+}
+.light-menu .app-sidebar__user .user-info {
+    color: #50649c;
+}
+.light-menu .side-menu__item {
+    color: #50649c !important;
+}
+.light-menu .side-menu h3 {
+    color: #9b9fb9;
+}
+.light-menu .app-sidebar .side-menu__item.active {
+    color: #50649c !important;
+}
+.light-menu .app-sidebar .side-menu__icon {
+    fill: #50649c !important;
+}
+.light-menu .side-menu__item svg {
+    fill: #50649c;
+}
+.light-menu .app-sidebar .side-menu__item.active {
+	color: #fff !important;
+    background: #4d79f5;
+}
+.light-menu .app-sidebar .side-menu__item:hover {
+	color: #fff !important;
+    background: #4d79f5;
+}
+.light-menu .slide.is-expanded .side-menu__item {
+    color: #fff !important;
+    background: #4d79f5;
+}
+.light-menu .app-sidebar .slide-menu .slide-item:hover {
+    color: #4d79f5;
+}
+.light-menu .app-sidebar ul li a {
+    color: #50649c !important;
+}
+.light-menu .slide-menu li:before {
+   background: #50649c;
+   opacity:0.5;
+}
+.light-menu .app-sidebar ul li a:hover {
+    color: #4d79f5 !important;
+}
+.light-menu .app-sidebar ul li a.active {
+    color: #4d79f5 !important;
+}
+.light-menu .side-menu li ul {
+    background: #fff;
+}
+.light-menu .slide-menu li.active>a {
+    color: #4d79f5 !important;
+}
+.light-menu .white-logo{
+	display:none;
+}
+.light-menu .mainlight-logo{
+	display:block;
+}
+.light-menu .app-sidebar__toggle .header-icons, .light-menu .app-sidebar__toggle .header-icons{
+	fill:#50649c;
+}
+.light-menu .app-sidebar__toggle i:focus, .app-sidebar__toggle i:hover {
+	color:#fff;
+}
+
+/*--Horixontal Dark--*/
+.horizontal-dark .horizontal-main.hor-menu {
+    background: #16182f !important;
+}
+.horizontal-dark .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active {
+    color: #ffffff;
+    background: rgb(31, 34, 66);
+}
+.horizontal-dark .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active:hover {
+    color: #ffffff;
+    background: rgb(31, 34, 66);
+}
+.horizontal-dark .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
+    color: #ffffff;
+    background: rgb(31, 34, 66);
+}
+.horizontal-dark .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover {
+    color: #ffffff;
+    background: rgb(31, 34, 66);
+}
+/*--Horizontal Gradient--*/
+.horizontal-gradient .horizontal-main.hor-menu {
+    background: linear-gradient( to right, rgb(77, 121, 245) 0.65%, rgb(26, 65, 175) 100% ) !important;
+}
+.horizontal-gradient .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-gradient .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-gradient .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-gradient .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+/*--Horizontal Color--*/
+.horizontal-color .horizontal-main.hor-menu {
+    background: #4d79f5 !important;
+}
+.horizontal-color .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-color .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-color .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+.horizontal-color .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+/*---horizontal-light---*/
+
+.horizontal-light .horizontal-main.hor-menu {
+    background: #fff !important;
+	border-bottom: 1px solid #e8edf5 !important;
+}
+.dark-theme.horizontal-light .horizontal-main.hor-menu {
+    background: #fff !important;
+	border-bottom: 0px solid #e8edf5 !important;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active {
+    color: #ffffff;
+    background: #4d79f5;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li>a.active:hover {
+    color: #ffffff;
+    background: #4d79f5;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li>a:hover {
+    color: #ffffff;
+    background: #4d79f5;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover {
+    color: #ffffff;
+    background: #4d79f5;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover a.sub-icon{ 
+	color: #ffffff !important;
+}
+.horizontal-light .horizontalMenu a.sub-icon{
+	color: #3b384a;
+}
+.horizontal-light svg.hor-icon {
+    fill: #b0b7c7;
+}
+.horizontal-light .hor-menu .horizontalMenu>.horizontalMenu-list>li:hover svg.hor-icon {
+    fill: rgba(255,255,255,0.8);
+}
+
+.dark-theme.horizontal-light .horizontalMenu>.horizontalMenu-list>li>a.sub-icon{
+	color: #3b384a;
+}
+.dark-theme.horizontal-light .horizontalMenu>.horizontalMenu-list>li:hover a.sub-icon{
+	color: #fff;
+}
+.dark-theme.horizontal-light .horizontalMenu>.horizontalMenu-list>li>a.active.sub-icon{
+	color: #fff;
+}
+@media (max-width:992px){
+	.horizontal-light .horizontalMenu>.horizontalMenu-list>li>a.sub-icon {
+		color: #fff;
+	}
+	.horizontal-light svg.hor-icon{
+		color: #fff;
+	}
+}
+@media (min-width:767px){
+	.light-theme .horizontalMenucontainer .desktop-logo{
+		display:flex;
+	}
+	.light-theme .horizontalMenucontainer .dark-theme-logo{
+		display:none;
+	}
+	.dark-theme .horizontalMenucontainer .desktop-logo{
+		display:none;
+	}
+	.dark-theme .horizontalMenucontainer .dark-theme-logo{
+		display:flex;
+	}
+	.mobile-logo{
+		display:none;
+	}
+}
+@media (max-width:767px){
+	.desktop-logo, .dark-theme-logo{
+		display:none;
+	}
+}
+@media (min-width:767px){
+	.light-menu .desktop-logo{
+		display:flex
+	}
+	.light-menu .dark-theme-logo{
+		display:none
+	}
+	.dark-theme-logo{
+		display:flex;
+	}
+	.desktop-logo{
+		display:none;
+	}
+	.mobile-logo{
+		display:none;
+	}
+}
+.dark-theme .light-map{
+	display:none;
+}
+.light-theme .dark-map{
+	display:none;
+}
